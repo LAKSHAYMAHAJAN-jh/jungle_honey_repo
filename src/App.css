@@ -1,0 +1,81 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdf6e3; /* Light honey tone */
+  color: #333;
+}
+
+/* Container Setup */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header Styles */
+.app-header {
+  background-color: #f7d358; /* Golden tone */
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.app-subtitle {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+/* Main Content Styles */
+.app-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-section {
+  background-color: #fff;
+  border: 1px solid #f7d358;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #f7d358;
+  text-align: center;
+}
+
+.contact-item {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.contact-item a {
+  color: #f7d358;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+.app-footer {
+  background-color: #f7d358;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
